@@ -1,0 +1,21 @@
+processor: Compare
+
+variables:
+  parameter_1: parameter_1_value
+  parameter_2: "parameter_2_value {{ vars.parameter_1}}"
+  env_home: "{{ env.HOME }}"
+  python_version: "{{ sys.python }}"
+  os_arch: "{{ sys.os }}_{{ sys.arch }}"
+
+readers:
+  csv:
+    curve_parser:
+      name: "col_x"
+      parameters:
+        x: 1
+
+report:
+  title: "This title is dynamic : run on {{ sys.os }} {{ sys.arch }}"
+  output:
+    export_html: true
+
