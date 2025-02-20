@@ -3,9 +3,8 @@
 ## Instructions
 
 1. `cd` to this folder
-2. Run `cglblens run .`
+2. Run `scilens run .`
 
 ## Explainations
 
- Cglblens is configured to ignore the column wth label "Label 3"  in our .csv files.
- In our report, we will have an error.
+SciLens is configured to ignore the column wth label "Label 3"  in our .csv files.

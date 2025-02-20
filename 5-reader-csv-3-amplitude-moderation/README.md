@@ -3,9 +3,9 @@
 ## Instructions
 
 1. `cd` to this folder
-2. TEST A `cglblens run --config scilens-without-amplitude-moderation.yml .`
-3. TEST B `cglblens run --config scilens-with-amplitude-moderation.yml .`
-4. TEST C `cglblens run --config scilens-with-amplitude-moderation-ignore.yml .`
+2. TEST A `scilens run --config scilens-without-amplitude-moderation.yml .`
+3. TEST B `scilens run --config scilens-with-amplitude-moderation.yml .`
+4. TEST C `scilens run --config scilens-with-amplitude-moderation-ignore.yml .`
 
 ## Explainations
 
