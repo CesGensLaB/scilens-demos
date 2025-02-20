@@ -1,0 +1,13 @@
+processor: Compare
+readers:
+  csv:
+    curve_parser:
+      name: "col_x"
+      parameters:
+        x: ["Label 1", "Time"]
+report:
+  output:
+    export_html: true
+  html:
+    curves:
+      display_on_load: true

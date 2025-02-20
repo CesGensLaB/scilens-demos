@@ -1,0 +1,9 @@
+processor: Compare
+tags: [csv, differences]
+report:
+  output:
+    export_html: true
+  html:
+    collapse_if_successful: false
+    curves:
+      display_on_load: true

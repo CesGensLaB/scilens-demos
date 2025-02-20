@@ -1,0 +1,15 @@
+processor: Compare
+tags: [csv]
+readers:
+  csv:
+    ignore_colunmns: ["Label 3"]
+    curve_parser:
+      name: "col_x"
+      parameters:
+        x: 1
+report:
+  output:
+    export_html: true
+  html:
+    curves:
+      display_on_load: true
