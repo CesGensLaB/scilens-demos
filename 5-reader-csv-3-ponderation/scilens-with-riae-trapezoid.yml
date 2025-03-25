@@ -3,8 +3,9 @@ tags: [csv]
 compare:
   float_thresholds:
     vectors:
-      amplitude_moderation:
-        multiplier: 0.1
+      ponderation_method: RIAE_trapezoid
+      riae_threshold: 0.1
+
 readers:
   csv:
     curve_parser:

@@ -1,0 +1,15 @@
+processor: Compare
+readers:
+  txt_fixed_cols:
+    has_header: true
+    has_header_repetition: true
+    has_header_ignore: ['##']
+    column_widths: [9, 13]
+    curve_parser:
+      name: "col_x"
+      parameters:
+        x: 1
+report:
+  output:
+    export_html: true
+

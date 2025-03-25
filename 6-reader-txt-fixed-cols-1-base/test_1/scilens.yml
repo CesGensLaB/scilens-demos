@@ -1,0 +1,13 @@
+processor: Compare
+readers:
+  txt_fixed_cols:
+    ignore_lines_patterns: ['##']
+    column_widths: [9, 13]
+    curve_parser:
+      name: "col_x"
+      parameters:
+        x: 1
+report:
+  output:
+    export_html: true
+

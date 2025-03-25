@@ -4,7 +4,6 @@ readers:
     group_depth: 1
     curve_parser: simple_1D
     curve_x_variable: UTC_time
-    compare_1D: true
 report:
-    output:
-        export_html: true
+  output:
+    export_html: true

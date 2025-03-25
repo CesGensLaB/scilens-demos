@@ -1,13 +1,9 @@
 processor: Compare
 tags: [csv]
-compare:
-  float_thresholds:
-    vectors:
-      amplitude_moderation:
-        multiplier: 0.1
-        method: "ignore"
 readers:
   csv:
+    delimiter: ";"
+    quotechar: "'"
     curve_parser:
       name: "col_x"
       parameters:
@@ -18,5 +14,3 @@ report:
   html:
     curves:
       display_on_load: true
-    # parameter_page_mode:
-    #   default_value: tabs
