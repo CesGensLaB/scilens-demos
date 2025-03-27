@@ -2,7 +2,7 @@ processor: Compare
 tags: [csv]
 readers:
   csv:
-    ignore_colunmns: ["Label 3"]
+    ignore_columns: ["Label 3"]
     curve_parser:
       name: "col_x"
       parameters:
