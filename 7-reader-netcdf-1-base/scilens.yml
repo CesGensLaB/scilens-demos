@@ -1,7 +1,8 @@
 processor: Compare
 readers:
   netcdf:
-    group_depth: 1
+    groups_depth: 1
+    compare_1D: true
     curve_parser: simple_1D
     curve_x_variable: UTC_time
 report:
