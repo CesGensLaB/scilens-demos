@@ -1,0 +1,13 @@
+processor: Compare
+
+readers:
+  csv:
+    is_matrix: true
+    matrix:
+      x_value_line: 1
+      has_y: true
+
+report:
+  output:
+    export_html: true
+
