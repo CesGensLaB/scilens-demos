@@ -1,0 +1,14 @@
+processor: ExecuteAndCompare
+
+file_reader:
+    extension_unknown_ignore: true 
+    
+execute_and_compare:
+    test:
+        exe_path: "executables/test.sh" 
+    reference:
+        exe_path: "executables/reference.sh"  
+
+report:
+    output:
+        export_html: true
