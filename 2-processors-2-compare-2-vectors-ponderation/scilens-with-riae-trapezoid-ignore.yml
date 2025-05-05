@@ -1,0 +1,23 @@
+processor: Compare
+tags: [csv]
+compare:
+  float_thresholds:
+    vectors:
+      reduction_method: ignore
+      ponderation_method: RIAE_trapezoid
+      riae_threshold: 0.01
+
+readers:
+  csv:
+    curve_parser:
+      name: "col_x"
+      parameters:
+        x: 1
+report:
+  output:
+    export_html: true
+  html:
+    curves:
+      display_on_load: true
+    # parameter_page_mode:
+    #   default_value: tabs
