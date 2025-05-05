@@ -7,5 +7,6 @@ report:
     export_html: true
   html:
     collapse_if_successful: false
+    logo_height: 80
     curves:
       display_on_load: true
