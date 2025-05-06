@@ -5,9 +5,9 @@ file_reader:
     
 execute_and_compare:
     test:
-        exe_url: "https://github.com/CesGensLaB/scilens-demos/releases/download/v1.2.3/executable2.sh"
+        exe_url: "https://github.com/CesGensLaB/scilens-demos/releases/download/v1.2.3/executable.sh"
     reference:
-        exe_url: "https://github.com/CesGensLaB/scilens-demos/releases/download/v1.2.3/executable2.sh"
+        exe_url: "https://github.com/CesGensLaB/scilens-demos/releases/download/v1.2.3/executable.sh"
 
 report:
     output:

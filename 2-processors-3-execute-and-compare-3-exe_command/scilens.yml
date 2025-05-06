@@ -1,0 +1,14 @@
+processor: ExecuteAndCompare
+
+file_reader:
+    extension_unknown_ignore: true 
+    
+execute_and_compare:
+    test:
+        exe_command: "python -c \"print('1\\n2\\n3\\n4\\n5\\n')\" > scilens_generated_data.txt"
+    reference:
+        exe_command: "python -c \"print('1\\n2\\n3\\n4\\n5.5\\n')\" > scilens_generated_data.txt"
+
+report:
+    output:
+        export_html: true
