@@ -1,0 +1,19 @@
+processor: Compare
+
+readers:
+  csv:
+    curve_parser:
+      name: "col_x"
+      parameters:
+        x: 1
+
+compare:
+  errors_limit: 50
+
+report:
+  output:
+    export_html: true
+
+  html:
+    curves:
+      display_on_load: true
