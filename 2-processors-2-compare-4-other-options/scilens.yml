@@ -1,0 +1,11 @@
+processor: Compare
+
+compare:
+  sources:
+    not_matching_source_ignore_pattern: "^test_[0-9]+_skipped\\.txt$"
+
+report:
+  output:
+    export_html: true
+
+
