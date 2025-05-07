@@ -7,6 +7,9 @@ readers:
       x_value_line: 1
       has_y: true
 
+      display_spectrogram: true
+      display_frameseries: true
+
 report:
   output:
     export_html: true
