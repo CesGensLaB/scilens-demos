@@ -2,11 +2,18 @@ processor: Compare
 tags: [csv, differences]
 report:
   title: "This is my awesome title"
+  description: "This is my awesome description"
   logo_file: "report_1.svg"
   output:
     export_html: true
   html:
     collapse_if_successful: false
     logo_height: 80
+    custom_style:       "h1, h2, h3, h4 { color: #f2008f; }"
+    extra_html_start:   "<h2>Extra HTML start</h2><div>Some extra HTML at the start of the report</div>"
+    extra_html_summary: "<h3>Extra HTML summary</h3><div>Some extra HTML in the summary of the report</div>"
+    extra_html_end:     "<h2>Extra HTML end</h2><div>Some extra HTML at the end of the report</div>"
+    custom_script_head: "console.log('Custom script in the head of the report')"
+    custom_script_body: "console.log('Custom script in the body of the report')"    
     curves:
       display_on_load: true
