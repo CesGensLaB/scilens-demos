@@ -1,0 +1,5 @@
+processor: Compare
+report:
+    title: "Get Started !"
+    output:
+        export_html: true
