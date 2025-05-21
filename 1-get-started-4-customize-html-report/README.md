@@ -9,10 +9,6 @@
 
 This demo shows the html report diplay cutomization capabilities :
 
-- title
-- logo
-
-
+- 
 
 ![](results_html_report.png)
-
