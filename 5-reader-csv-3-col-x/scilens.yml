@@ -11,8 +11,11 @@ readers:
 report:
 
   output:
+    export_json: true
     export_html: true
 
   html:
     curves:
       display_on_load: true
+      compare_vs_values: true
+      compare_vs_difference: true

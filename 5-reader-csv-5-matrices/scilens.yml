@@ -6,11 +6,18 @@ readers:
     matrix:
       x_value_line: 1
       has_y: true
-
-      display_spectrogram: true
-      display_frameseries: true
+      x_name: "Time (s)"
+      y_name: "Frequency (Hz)"
+      export_report: true
 
 report:
   output:
+    export_json: true
     export_html: true
+  html:
+    matrix:
+      spectrograms:
+        test_ref: false
+        # differences: true
+        
 

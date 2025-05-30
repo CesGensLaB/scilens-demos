@@ -1,10 +1,12 @@
 processor: Compare
+
 readers:
   netcdf:
     groups_depth: 1
     compare_1D: true
     curve_parser: simple_1D
     curve_x_variable: UTC_time
+    
 report:
   output:
     export_html: true

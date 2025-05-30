@@ -1,0 +1,16 @@
+processor: Compare
+
+readers:
+  netcdf:
+    compare_2D: true
+    units_attributes: ["units"]
+    curve_parser: frameseries_2D
+    curve_x_variable: time
+
+    matrices_display_spectrogram: true
+    
+        
+report:
+    output:
+        export_json: true
+        export_html: true

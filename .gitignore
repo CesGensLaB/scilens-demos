@@ -4,3 +4,6 @@ scilens_generated_data.*
 index.html
 __env__
 test_assets
+
+*_AL/
+*copy/
