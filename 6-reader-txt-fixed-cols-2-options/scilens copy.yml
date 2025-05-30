@@ -1,25 +1,16 @@
 processor: Compare
 file_reader:
   extension_readers_catalog:
-    dat1: dat1
     dat2: dat2
 readers:
   catalog:
-    dat1:
-      type: txt_fixed_cols
-      parameters:
-        ignore_lines_patterns: ['##']
-        column_widths: [9, 13]
-        curve_parser:
-          name: "col_x"
-          parameters:
-            x: 1
     dat2:
       type: txt_fixed_cols
       parameters:
+        ignore_lines_patterns: [' URF'] 
         has_header: true
         has_header_ignore: ['##']
-        column_widths: [9, 13]
+        has_header_repetition: true
         curve_parser:
           name: "col_x"
           parameters:
