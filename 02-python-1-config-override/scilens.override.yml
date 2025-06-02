@@ -1,0 +1,3 @@
+report:
+    title: "This title (defined in scilens.override.yml) overrides the default one (defined in scilens.yml) !"
+    
