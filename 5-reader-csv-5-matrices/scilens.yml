@@ -18,6 +18,9 @@ report:
     matrix:
       spectrograms:
         test_ref: false
-        # differences: true
+        differences: true
+      frameseries:
+        width: 200
+        height: 200
         
 
