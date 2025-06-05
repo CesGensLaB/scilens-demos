@@ -9,6 +9,9 @@ readers:
       x_name: "Time (s)"
       y_name: "Frequency (Hz)"
       export_report: true
+      frameseries:
+        name: test
+        unit: "dB"
 
 report:
   output:
@@ -17,8 +20,9 @@ report:
   html:
     matrix:
       spectrograms:
-        test_ref: false
+        test_ref: true
         differences: true
+        is_3D: false
       frameseries:
         width: 200
         height: 200

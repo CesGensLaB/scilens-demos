@@ -1,0 +1,15 @@
+processor: Compare
+
+compare:
+  sources:
+    # additional_path_suffix: "out"
+    additional_path_suffixes:
+      - "out"
+      - "out_2"
+
+
+report:
+  output:
+    export_html: true
+
+
