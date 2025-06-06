@@ -11,6 +11,17 @@ readers:
     
         
 report:
-    output:
-        export_json: true
-        export_html: true
+  
+  output:
+    export_json: true
+    export_html: true
+
+  html:
+    matrix:
+      spectrograms:
+        test_ref: true
+        differences: true
+        is_3D: false
+      frameseries:
+        width: 200
+        height: 200

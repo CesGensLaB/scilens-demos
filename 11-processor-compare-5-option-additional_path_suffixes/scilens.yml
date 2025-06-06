@@ -2,7 +2,7 @@ processor: Compare
 
 compare:
   sources:
-    # additional_path_suffix: "out"
+    recursive: true
     additional_path_suffixes:
       - "out"
       - "out_2"
