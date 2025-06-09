@@ -1,21 +1,36 @@
 processor: Compare
+
 file_reader:
+
   extension_readers_catalog:
     dat2: dat2
+
 readers:
+
   catalog:
-    dat2:
+    
+    dat2:  
       type: txt_fixed_cols
       parameters:
-        ignore_lines_patterns: [' URF'] 
+        ignore_lines_patterns: ['## ']
+
+        lines:
+          start: 3
+          end: 8
+
         has_header: true
+        has_header_line: 2
         has_header_ignore: ['##']
-        has_header_repetition: true
         curve_parser:
           name: "col_x"
           parameters:
             x: 1
+
 report:
+
   output:
     export_html: true
 
+  html:
+    curves:
+      display_on_load: true
