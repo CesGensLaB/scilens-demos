@@ -8,8 +8,8 @@ readers:
       index_col: 1
 
       rows:
-        line_start: 3
-        line_end: 8
+        index_min_value: 3
+        index_max_value: 8
 
       curve_parser:
         name: "col_x"
