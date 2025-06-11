@@ -1,0 +1,29 @@
+processor: Compare
+
+readers:
+
+  csv:
+
+    metrics:
+      - col: "Y-Value-1"
+        aggregation: "mean"
+      - col: "Y-Value-1"
+        aggregation: "sum"
+      - col: "Y-Value-1"
+        aggregation: "min"
+      - col: "Y-Value-1"
+        aggregation: "max"
+
+
+report:
+
+  output:
+    export_json: true
+    export_html: true
+
+
+  html:
+    curves:
+      display_on_load: true
+    parameter_page_mode:
+      default_value: tabs

@@ -2,10 +2,11 @@ processor: Compare
 
 readers:
   csv:
-    curve_parser:
-      name: "col_x"
-      parameters:
-        x: 1
+    cols:
+      curve_parser:
+        name: "col_x"
+        parameters:
+          x: 1
 
 compare:
   errors_limit: 50

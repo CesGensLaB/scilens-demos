@@ -4,10 +4,11 @@ readers:
   csv:
     delimiter: ";"
     quotechar: "'"
-    curve_parser:
-      name: "col_x"
-      parameters:
-        x: 1
+    cols:
+      curve_parser:
+        name: "col_x"
+        parameters:
+          x: 1
 report:
   output:
     export_html: true

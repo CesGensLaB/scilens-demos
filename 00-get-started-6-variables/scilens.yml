@@ -9,10 +9,11 @@ variables:
 
 readers:
   csv:
-    curve_parser:
-      name: "col_x"
-      parameters:
-        x: 1
+    cols:
+      curve_parser:
+        name: "col_x"
+        parameters:
+          x: 1
 
 report:
   title: "This title is dynamic : run on {{ sys.os }} {{ sys.arch }}"

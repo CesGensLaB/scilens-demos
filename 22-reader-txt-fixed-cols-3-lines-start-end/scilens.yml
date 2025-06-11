@@ -12,19 +12,20 @@ readers:
     dat2:  
       type: txt_fixed_cols
       parameters:
-        ignore_lines_patterns: ['## ']
-
-        lines:
-          start: 3
-          end: 8
+        cols:
+          rows:
+            ignore_patterns: ['##']      
+            line_start: 3
+            line_end: 8
+          curve_parser:
+            name: "col_x"
+            parameters:
+              x: 1
 
         has_header: true
         has_header_line: 2
         has_header_ignore: ['##']
-        curve_parser:
-          name: "col_x"
-          parameters:
-            x: 1
+
 
 report:
 

@@ -1,10 +1,14 @@
 processor: Compare
 
 readers:
+
   csv:
-    ignore_lines_patterns: ['##']
+    cols:
+      rows:
+        ignore_patterns: ['##']
 
 report:
+
   output:
     export_html: true
   html:

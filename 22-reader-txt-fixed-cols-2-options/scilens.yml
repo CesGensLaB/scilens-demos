@@ -7,14 +7,17 @@ readers:
     dat2:
       type: txt_fixed_cols
       parameters:
-        ignore_lines_patterns: ['## ']        
         has_header: true
         has_header_line: 2
         has_header_ignore: ['##']
-        curve_parser:
-          name: "col_x"
-          parameters:
-            x: 1
+        cols:
+          rows:
+            ignore_patterns: ['##']
+
+          curve_parser:
+            name: "col_x"
+            parameters:
+              x: 1
 report:
   output:
     export_html: true

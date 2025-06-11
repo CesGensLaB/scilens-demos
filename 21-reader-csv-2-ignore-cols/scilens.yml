@@ -2,11 +2,12 @@ processor: Compare
 tags: [csv]
 readers:
   csv:
-    ignore_columns: ["Label 3"]
-    curve_parser:
-      name: "col_x"
-      parameters:
-        x: 1
+    cols:
+      ignore_columns: ["Label 3"]
+      curve_parser:
+        name: "col_x"
+        parameters:
+          x: 1
 report:
   output:
     export_html: true
