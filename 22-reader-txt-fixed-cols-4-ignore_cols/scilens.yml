@@ -1,0 +1,33 @@
+processor: Compare
+
+file_reader:
+
+  extension_readers_catalog:
+    dat1: dat1
+
+readers:
+
+  catalog:
+    dat1:
+      type: txt_fixed_cols
+      parameters:
+        has_header: true
+        
+        cols:
+          ignore_columns: 
+            - 2
+          curve_parser:
+            name: "col_x"
+            parameters:
+              x: 1
+
+report:
+
+  output:
+    export_html: true
+    
+  html:
+    curves:
+      display_on_load: true
+
+

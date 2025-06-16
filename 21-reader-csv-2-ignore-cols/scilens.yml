@@ -3,7 +3,11 @@ tags: [csv]
 readers:
   csv:
     cols:
-      ignore_columns: ["Label 3"]
+
+      ignore_columns:
+        - "Label 3"
+        # - 3
+    
       curve_parser:
         name: "col_x"
         parameters:
