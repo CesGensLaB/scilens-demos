@@ -1,0 +1,38 @@
+processor: Compare
+
+compare:
+  
+  metrics_thresholds:
+    relative_vs_absolute_min: 1e-6
+    relative_error_min: 0.01
+    relative_error_max: 1.0
+    absolute_error_min: 1e-7
+    absolute_error_max: 1e-6
+
+readers:
+
+  txt:
+  
+    metrics:
+      - name: "Value E"
+        pattern: "Value E:"
+      - name: "Metric Name"
+        pattern: "Values G:"
+        number_position: 3
+      - name: "Other Metric"
+        pattern: "Values G:"
+        number_position: 2
+
+
+
+
+report:
+
+  output:
+    export_json: true
+    export_html: true
+
+
+  html:
+    parameter_page_mode:
+      default_value: tabs

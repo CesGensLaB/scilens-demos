@@ -1,0 +1,24 @@
+processor: Compare
+
+readers:
+
+  txt:
+  
+    metrics:
+      - name: "Value E"
+        pattern: "Value E:"
+      - name: "Metric Name"
+        pattern: "Values G:"
+        number_position: 3
+      - name: "Other Metric"
+        pattern: "Values G:"
+        number_position: 2
+
+report:
+
+  output:
+    export_html: true
+
+  html:
+    parameter_page_mode:
+      default_value: tabs
