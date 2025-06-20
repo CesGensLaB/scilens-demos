@@ -5,16 +5,19 @@ readers:
   csv:
 
     cols:
-      index_col: 1
+      
+      index_col: ["Label 1"]
+      
+      ignore_columns: ["Label 3"]
 
       rows:
-        line_start: 3
+        line_start: 4
         line_end: 8
 
       curve_parser:
         name: "col_x"
-        parameters:
-          x: 1
+        # parameters:
+        #   x: 1
 
 report:
 
