@@ -14,8 +14,6 @@ A [CesGensLaB](https://cesgenslab.fr) framework for **data collecting** and **da
 
 - [License](https://scilens.dev/legal/license)
 
-- [Registry](https://forge-02.cesgenslab.cloud/cglb-registry/-/packages/pypi/scilens)  
-
 - [Demos](https://github.com/CesGensLaB/scilens-demos)
 
 - [Issue Tracker](https://forge-02.cesgenslab.cloud/cglb-registry/scilens-issues/issues)
