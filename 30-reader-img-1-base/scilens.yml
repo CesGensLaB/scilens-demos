@@ -1,0 +1,6 @@
+processor: Compare
+
+    
+report:
+  output:
+    export_html: true
