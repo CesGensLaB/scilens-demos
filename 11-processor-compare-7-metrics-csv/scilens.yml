@@ -11,9 +11,19 @@ readers:
         aggregation: "sum"
       - col: "Y-Value-1"
         aggregation: "min"
-      - col: "Y-Value-1"
+      - name: "Metric Y"
+        col: "Y-Value-1"
         aggregation: "max"
+      - name: "Distance"
+        aggregation: "mean"
+        function: "euclidean_norm"
+        components: ["time_x", "time_y", "time_z"]
 
+    cols:
+      curve_parser:
+        name: "col_x"
+        parameters:
+          x: ["time"]
 
 report:
 
