@@ -19,6 +19,9 @@ readers:
         function: "euclidean_norm"
         components: ["time_x", "time_y", "time_z"]
 
+      - col: "value"
+        aggregation: "sum"
+
     cols:
       curve_parser:
         name: "col_x"
