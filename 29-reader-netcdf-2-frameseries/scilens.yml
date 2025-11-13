@@ -13,7 +13,7 @@ readers:
 report:
   
   output:
-    export_json: true
+    # export_json: true
     export_html: true
 
   html:

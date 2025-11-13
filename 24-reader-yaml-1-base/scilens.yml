@@ -1,0 +1,9 @@
+processor: Compare
+
+readers:
+  yaml:
+    path_exclude_patterns: ["ttest/data/tree_utils/exclude/*"]
+    
+report:
+  output:
+    export_html: true
