@@ -8,6 +8,7 @@ readers:
         name: "col_x"
         parameters:
           x: ["Label 1", "Time"]
+          x_not_found_skip: false
         
 report:
 
