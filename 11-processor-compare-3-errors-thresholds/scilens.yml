@@ -1,0 +1,29 @@
+processor: Compare
+
+readers:
+  csv:
+    cols:
+      curve_parser:
+        name: "col_x"
+        parameters:
+          x: 1
+
+compare:
+  name_patterns_thresholds:
+    "data_2.csv": 
+      relative_vs_absolute_min: 1e-6
+      relative_error_min: 0.01
+      relative_error_max: 1.0
+      absolute_error_min: 1e-7
+      absolute_error_max: 1e-6
+    
+# compare:
+#   errors_limit: 50
+
+report:
+  output:
+    export_html: true
+
+  html:
+    curves:
+      display_on_load: true
