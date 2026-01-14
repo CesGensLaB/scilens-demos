@@ -5,6 +5,12 @@ compare:
     vectors:
       ponderation_method: RIAE_midpoint
       riae_threshold: 0.01
+    vectors_columns:
+      "Time (s)": null
+      Amplitude:
+        ponderation_method: RIAE_trapezoid
+        riae_threshold: 0.01
+
 
 readers:
   csv:
