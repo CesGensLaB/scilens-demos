@@ -19,4 +19,5 @@ report:
   title: "This title is dynamic : run on {{ sys.os }} {{ sys.arch }}"
   output:
     export_html: true
+    export_json: true
 

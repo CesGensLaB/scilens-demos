@@ -18,6 +18,7 @@ report:
 
   output:
     export_html: true
+    export_json: true
 
   html:
     parameter_page_mode:

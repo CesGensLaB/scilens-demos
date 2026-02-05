@@ -10,3 +10,4 @@ readers:
 report:
   output:
     export_html: true
+    export_json: true

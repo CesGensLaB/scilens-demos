@@ -3,6 +3,7 @@ tags: [csv, no_difference]
 report:
   output:
     export_html: true
+    export_json: true
   html:
     collapse_if_successful: false
     curves:

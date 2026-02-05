@@ -6,6 +6,7 @@ report:
   logo_file: "report_1.svg"
   output:
     export_html: true
+    export_json: true
   html:
     collapse_if_successful: false
     logo_height: 80

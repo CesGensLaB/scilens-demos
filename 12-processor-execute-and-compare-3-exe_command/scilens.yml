@@ -12,3 +12,4 @@ execute_and_compare:
 report:
     output:
         export_html: true
+        export_json: true

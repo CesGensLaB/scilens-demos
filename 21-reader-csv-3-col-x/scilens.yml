@@ -15,6 +15,7 @@ report:
   output:
     # export_json: true
     export_html: true
+    export_json: true
 
   html:
     curves:
